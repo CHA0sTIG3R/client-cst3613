@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="root" alignment="CENTER" prefHeight="743.0" prefWidth="1076.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.cuny.citytech.cst.retirement.examples.BarChartExampleController">
+       <children>
+          <BarChart fx:id="bar" legendVisible="false" prefHeight="772.0" prefWidth="889.0">
+            <xAxis>
+              <CategoryAxis side="BOTTOM" visible="false" />
+            </xAxis>
+            <yAxis>
+              <NumberAxis side="LEFT" />
+            </yAxis>
+          </BarChart>
+          <Label fx:id="lblMessage" text="Label" />
+       </children>
+</VBox>

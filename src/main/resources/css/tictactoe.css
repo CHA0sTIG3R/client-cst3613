@@ -1,0 +1,16 @@
+#lblTitle{
+    -fx-font-size: 30pt;
+}
+
+.moves{
+    -fx-font-size: 75pt;
+    -fx-min-width: 175;
+    -fx-min-height: 175;
+    -fx-alignment: center;
+    -fx-border-color: black;
+    -fx-border-insets: 1;
+}
+
+.winner{
+    -fx-background-color: bisque;
+}

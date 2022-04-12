@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="955.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.cuny.citytech.cst.retirement.fxml.RetirementController">
+   <children>
+      <CheckBox fx:id="checkBoxShowPercentage" mnemonicParsing="false" text="Show Percentage" />
+      <Label fx:id="labelTitle" text="Retirement">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <PieChart fx:id="pieChart" legendSide="LEFT" minHeight="750.0" minWidth="750.0" />
+      <TilePane fx:id="tPane" alignment="CENTER" prefHeight="200.0" prefWidth="200.0" />
+      <Label fx:id="labelStatus" text="Label">
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+         <padding>
+            <Insets bottom="20.0" />
+         </padding>
+      </Label>
+   </children>
+</VBox>

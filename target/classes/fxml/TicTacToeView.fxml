@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="823.0" prefWidth="743.0" stylesheets="@../css/tictactoe.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.cuny.citytech.cst.retirement.tictactoe.TicTacToeController">
+   <children>
+      <FlowPane fx:id="fpMoves" layoutX="107.0" layoutY="99.0" prefHeight="532.0" prefWidth="534.0">
+         <children>
+            <Label onMouseClicked="#xOrO" styleClass="moves" text="N" />
+            <Label onMouseClicked="#xOrO" styleClass="moves" text="N" />
+            <Label onMouseClicked="#xOrO" styleClass="moves" text="N" />
+
+            <Label onMouseClicked="#xOrO" styleClass="moves" text="N" />
+            <Label onMouseClicked="#xOrO" styleClass="moves" text="N" />
+            <Label onMouseClicked="#xOrO" styleClass="moves" text="N" />
+
+            <Label onMouseClicked="#xOrO" styleClass="moves" text="N" />
+            <Label onMouseClicked="#xOrO" styleClass="moves" text="N" />
+            <Label onMouseClicked="#xOrO" styleClass="moves" text="N" />
+         </children>
+      </FlowPane>
+      <Label fx:id="lblTitle" layoutX="265.0" layoutY="29.0" text="TicTacToe" />
+      <Button layoutX="346.0" layoutY="769.0" mnemonicParsing="false" onAction="#reset" text="Reset" />
+      <Label fx:id="lblMessage" layoutX="107.0" layoutY="649.0" prefHeight="17.0" prefWidth="525.0" />
+      <Label fx:id="lblURL" layoutX="107.0" layoutY="670.0" prefHeight="49.0" prefWidth="525.0" wrapText="true" />
+   </children>
+</AnchorPane>
