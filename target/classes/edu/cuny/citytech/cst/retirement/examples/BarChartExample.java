@@ -10,8 +10,7 @@ import javafx.scene.chart.XYChart;
 import javafx.stage.Stage;  
 public class BarChartExample extends Application {  
 @Override  
-public void start(Stage primaryStage) throws Exception {  
-    // TODO Auto-generated method stub  
+public void start(Stage primaryStage) throws Exception {
     //Defining string to label XAxis   
     String Euro = "Euro";  
     String Pound = "British Pound";  

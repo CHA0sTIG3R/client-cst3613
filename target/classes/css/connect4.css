@@ -1,0 +1,11 @@
+#lblTitle{
+    -fx-font-size: 30pt;
+}
+.moves{
+    -fx-font-size: 20pt;
+    -fx-min-width: 70;
+    -fx-min-height: 70;
+    -fx-alignment: center;
+    -fx-border-color: black;
+    -fx-border-insets: 1;
+}
