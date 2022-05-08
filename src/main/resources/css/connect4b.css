@@ -1,0 +1,27 @@
+#lblTitle{
+    -fx-font-size: 30pt;
+}
+
+*{
+    -fx-base: #424242
+}
+
+.moves{
+    -fx-font-size: 16pt;
+    -fx-shape: "M 100, 100 m -75, 0 a 75,75 0 1,0 150,0 a 75,75 0 1,0 -150,0";
+    -fx-min-width: 70;
+    -fx-min-height: 70;
+    -fx-padding: 5px;
+    -fx-border-insets: 5px;
+    -fx-background-insets: 5px;
+    -fx-background-color: brown;
+    -fx-alignment: center;
+}
+
+.color-X{
+    -fx-background-color: black;
+}
+
+.color-O{
+    -fx-background-color: blue;
+}

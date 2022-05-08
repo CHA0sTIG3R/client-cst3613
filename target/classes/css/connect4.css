@@ -9,3 +9,11 @@
     -fx-border-color: black;
     -fx-border-insets: 1;
 }
+
+.color-X{
+    -fx-background-color: pink;
+}
+
+.color-O{
+    -fx-background-color: cyan;
+}
