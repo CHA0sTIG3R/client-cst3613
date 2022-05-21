@@ -2,13 +2,17 @@ package edu.cuny.citytech.cst.retirement.tictactoe;
 
 import com.jbbwebsolutions.http.utility.JSONGet;
 import edu.cuny.citytech.cst.retirement.model.TicTacToeResults;
+import edu.cuny.citytech.cst.retirement.utility.AbstractController;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.FlowPane;
 
-public class TicTacToeController {
+import java.net.URL;
+import java.util.ResourceBundle;
+
+public class TicTacToeController extends AbstractController {
 
     @FXML
     private FlowPane fpMoves;
@@ -76,4 +80,8 @@ public class TicTacToeController {
 
     private boolean isX = true;
 
+    @Override
+    public void childInitialize(URL url, ResourceBundle resourceBundle) {
+
+    }
 }

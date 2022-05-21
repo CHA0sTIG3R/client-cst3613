@@ -1,0 +1,39 @@
+#lblTitle{
+    -fx-font-size: 30pt;
+    -fx-alignment: center;
+}
+
+.message{
+    -fx-font-size: 18pt;
+    -fx-alignment: center;
+    -fx-background-color: pink;
+    -fx-border-color: red;
+}
+
+.num{
+    -fx-font-size: 10pt;
+    -fx-min-width: 35;
+    -fx-min-height: 35;
+    -fx-alignment: center;
+    -fx-border-color: black;
+    -fx-border-insets: 1;
+}
+
+.abc{
+    -fx-font-size: 25pt;
+    -fx-min-width: 80;
+    -fx-min-height: 85;
+    -fx-alignment: center;
+    -fx-border-color: black;
+    -fx-border-insets: 1;
+}
+
+.selected{
+    -fx-font-size: 10pt;
+    -fx-min-width: 35;
+    -fx-min-height: 35;
+    -fx-alignment: center;
+    -fx-border-color: red;
+    -fx-border-insets: 1;
+    -fx-background-color: gray;
+}

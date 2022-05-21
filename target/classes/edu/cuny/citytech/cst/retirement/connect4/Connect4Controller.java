@@ -2,6 +2,7 @@ package edu.cuny.citytech.cst.retirement.connect4;
 
 import edu.cuny.citytech.cst.retirement.model.Cell;
 import edu.cuny.citytech.cst.retirement.service.GravityService;
+import edu.cuny.citytech.cst.retirement.utility.AbstractController;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -16,7 +17,7 @@ import java.net.URL;
 import java.util.ResourceBundle;
 import java.util.stream.IntStream;
 
-public class Connect4Controller implements Initializable {
+public class Connect4Controller extends AbstractController {
 
     @FXML
     private FlowPane fpMoves;
@@ -91,7 +92,7 @@ public class Connect4Controller implements Initializable {
 
 
     @Override
-    public void initialize(URL url, ResourceBundle resourceBundle) {
+    public void childInitialize(URL url, ResourceBundle resourceBundle) {
         IntStream.rangeClosed(0,41).forEach(this::populate);
 
         this.labels = fpMoves.getChildren().stream()

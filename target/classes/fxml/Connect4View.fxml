@@ -7,8 +7,18 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.FlowPane?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="823.0" prefWidth="743.0" stylesheets="@../css/connect4.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.cuny.citytech.cst.retirement.connect4.Connect4Controller">
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.Menu?>
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="823.0" prefWidth="743.0" stylesheets="@../css/connect4b.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.cuny.citytech.cst.retirement.connect4.Connect4Controller">
    <children>
+      <MenuBar layoutX="3.0" layoutY="2.0">
+         <menus>
+            <Menu fx:id="menuScene" mnemonicParsing="false" text="Scene">
+               <items>
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
       <FlowPane fx:id="fpMoves" layoutX="107.0" layoutY="121.0" prefHeight="532.0" prefWidth="534.0">
          <children>
 
